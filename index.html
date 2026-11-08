@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black River Hospital Hurricane Recovery</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f8fa;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #075b45;
+        }
+
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 50, 40, 0.75),
+            rgba(0, 50, 40, 0.75)),
+            url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3")
+            center/cover;
+            color: white;
+            padding: 110px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+
+        .section-title {
+            color: #075b45;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .info-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .info-card h5 {
+            color: #075b45;
+            font-weight: bold;
+        }
+
+        .recovery-banner {
+            background-color: #fff3cd;
+            border-left: 6px solid #e0a800;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .progress {
+            height: 22px;
+        }
+
+        .btn-green {
+            background-color: #075b45;
+            color: white;
+        }
+
+        .btn-green:hover {
+            background-color: #043d30;
+            color: white;
+        }
+
+        footer {
+            background-color: #063c32;
+            color: white;
+            padding: 30px 0;
+        }
+
+        footer a {
+            color: #d4f5e7;
+        }
+
+        section {
+            padding: 55px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Jamaica Health Recovery</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rebuilding">Rebuilding</a></li>
+                <li class="nav-item"><a class="nav-link" href="#restocking">Restocking</a></li>
+                <li class="nav-item"><a class="nav-link" href="#recovery">Recovery Plan</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Emergency Notice -->
+<div class="alert alert-warning text-center mb-0 rounded-0">
+    <strong>Hurricane Recovery:</strong>
+    Supporting the rebuilding and restoration of Black River Hospital.
+</div>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="container">
+        <h1>Rebuilding Black River Hospital</h1>
+        <p class="lead mt-3">
+            Restoring healthcare services and supporting communities
+            affected by a catastrophic Category 5 hurricane.
+        </p>
+        <a href="#recovery" class="btn btn-light btn-lg mt-3">
+            Explore the Recovery Plan
+        </a>
+    </div>
+</header>
+
+<!-- Overview -->
+<section id="overview">
+    <div class="container">
+        <h2 class="section-title text-center">Recovery Overview</h2>
+
+        <div class="recovery-banner mb-4">
+            <h5>Our Recovery Mission</h5>
+            <p class="mb-0">
+                The purpose of this recovery initiative is to support the
+                reconstruction, restocking, and restoration of essential
+                medical services at Black River Hospital in St. Elizabeth,
+                Jamaica, following a devastating hurricane.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Hospital Reconstruction</h5>
+                    <p>
+                        Repair damaged buildings, restore electrical
+                        systems, improve water supply, and prepare
+                        medical spaces for safe operation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Medical Restocking</h5>
+                    <p>
+                        Replenish medicines, medical equipment,
+                        surgical supplies, protective equipment,
+                        and other essential hospital materials.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Community Healthcare</h5>
+                    <p>
+                        Support healthcare workers and help restore
+                        reliable medical services for families
+                        throughout St. Elizabeth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rebuilding -->
+<section id="rebuilding" class="bg-light">
+    <div class="container">
+        <h2 class="section-title text-center">
+            Hospital Reconstruction Priorities
+        </h2>
+
+        <p class="text-center mb-4">
+            Rebuilding requires careful assessment and the restoration
+            of critical hospital infrastructure.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>1. Structural Repairs</h5>
+                    <ul>
+                        <li>Inspect damaged buildings.</li>
+                        <li>Repair roofs and ceilings.</li>
+                        <li>Replace broken windows and doors.</li>
+                        <li>Check walls and foundations.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>2. Electricity and Power</h5>
+                    <ul>
+                        <li>Repair electrical systems.</li>
+                        <li>Inspect generators.</li>
+                        <li>Restore emergency lighting.</li>
+                        <li>Protect critical medical equipment.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>3. Water and Sanitation</h5>
+                    <ul>
+                        <li>Restore clean water supply.</li>
+                        <li>Repair plumbing systems.</li>
+                        <li>Restore sanitation facilities.</li>
+                        <li>Improve drainage systems.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>4. Medical Facilities</h5>
+                    <ul>
+                        <li>Restore emergency rooms.</li>
+                        <li>Repair operating theatres.</li>
+                        <li>Prepare patient wards.</li>
+                        <li>Restore laboratory services.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>5. Ventilation and Safety</h5>
+                    <ul>
+                        <li>Inspect air conditioning.</li>
+                        <li>Check medical gas systems.</li>
+                        <li>Improve infection prevention.</li>
+                        <li>Inspect fire safety equipment.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>6. Security and Access</h5>
+                    <ul>
+                        <li>Clear debris from entrances.</li>
+                        <li>Restore safe access roads.</li>
+                        <li>Repair security systems.</li>
+                        <li>Protect hospital supplies.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Restocking -->
+<section id="restocking">
+    <div class="container">
+        <h2 class="section-title text-center">
+            Restocking Essential Hospital Supplies
+        </h2>
+
+        <p class="text-center mb-4">
+            Replenishing essential supplies is important for restoring
+            safe and effective patient care.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Medicines</h5>
+                    <ul>
+                        <li>Antibiotics</li>
+                        <li>Pain relief medication</li>
+                        <li>Emergency medicines</li>
+                        <li>IV fluids</li>
+                        <li>Chronic disease medication</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Medical Equipment</h5>
+                    <ul>
+                        <li>Patient monitors</li>
+                        <li>Blood pressure machines</li>
+                        <li>Oxygen equipment</li>
+                        <li>Hospital beds</li>
+                        <li>Wheelchairs and stretchers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Medical Supplies</h5>
+                    <ul>
+                        <li>Bandages and gauze</li>
+                        <li>Disposable gloves</li>
+                        <li>Syringes and needles</li>
+                        <li>Wound dressing materials</li>
+                        <li>Surgical supplies</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Infection Prevention</h5>
+                    <ul>
+                        <li>Hand sanitizers</li>
+                        <li>Disinfectants</li>
+                        <li>Protective masks</li>
+                        <li>Cleaning materials</li>
+                        <li>Protective clothing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Food and Water</h5>
+                    <ul>
+                        <li>Safe drinking water</li>
+                        <li>Food for patients</li>
+                        <li>Food for hospital staff</li>
+                        <li>Water storage supplies</li>
+                        <li>Basic sanitation materials</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card info-card p-4">
+                    <h5>Staff and Patient Support</h5>
+                    <ul>
+                        <li>Bedding and blankets</li>
+                        <li>Patient clothing</li>
+                        <li>Basic hygiene products</li>
+                        <li>Staff protective equipment</li>
+                        <li>Essential administrative supplies</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Recovery Plan -->
+<section id="recovery" class="bg-light">
+    <div class="container">
+        <h2 class="section-title text-center">
+            Hospital Recovery Action Plan
+        </h2>
+
+        <p class="text-center">
+            The following checklist is an interactive demonstration
+            of important recovery activities.
+        </p>
+
+        <div class="card p-4 shadow-sm">
+            <h5 class="mb-3">Recovery Checklist</h5>
+
+            <div class="progress mb-3">
+                <div id="progressBar"
+                    class="progress-bar bg-success"
+                    role="progressbar" style="width: 0%">
+                    0%
+                </div>
+            </div>
+
+            <div id="checklist">
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Complete structural damage assessment
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Clear debris and restore safe access
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Repair electricity and backup power
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Restore water and sanitation
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Inspect medical equipment
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Restock essential medicines
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Replenish medical supplies
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Prepare patient wards
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Restore laboratory services
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Confirm staff and emergency readiness
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Complete safety inspections
+                    </label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input task" type="checkbox">
+                    <label class="form-check-label">
+                        Coordinate the restoration of services
+                    </label>
+                </div>
+            </div>
+
+            <button class="btn btn-green mt-3" onclick="resetChecklist()">
+                Reset Checklist
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Recovery Phases -->
+<section>
+    <div class="container">
+        <h2 class="section-title text-center">
+            Four Phases of Recovery
+        </h2>
+
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card info-card p-3 text-center">
+                    <h5>Phase 1</h5>
+                    <h6>Assessment</h6>
+                    <p>Inspect the hospital and identify urgent needs.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card info-card p-3 text-center">
+                    <h5>Phase 2</h5>
+                    <h6>Stabilization</h6>
+                    <p>Secure buildings and restore critical utilities.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card info-card p-3 text-center">
+                    <h5>Phase 3</h5>
+                    <h6>Reconstruction</h6>
+                    <p>Repair facilities and replace damaged equipment.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card info-card p-3 text-center">
+                    <h5>Phase 4</h5>
+                    <h6>Restoration</h6>
+                    <p>Restock supplies and restore healthcare services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-light">
+    <div class="container">
+        <h2 class="section-title text-center">
+            Recovery Support and Contact
+        </h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="card p-4 shadow-sm">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control"
+                                placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control"
+                                placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4"
+                                placeholder="Enter your message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-green">
+                            Submit Message
+                        </button>
+
+                        <p id="formMessage" class="mt-3"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <h5>Black River Hospital Recovery Initiative</h5>
+        <p>
+            Supporting the restoration of healthcare services
+            in St. Elizabeth, Jamaica.
+        </p>
+
+        <p>Useful Jamaican Emergency and Health Resources:</p>
+
+        <p>
+            <a href="https://www.moh.gov.jm/" target="_blank">
+                Ministry of Health and Wellness
+            </a> |
+            <a href="https://www.odpem.org.jm/" target="_blank">
+                ODPEM
+            </a> |
+            <a href="https://metservice.gov.jm/" target="_blank">
+                Meteorological Service of Jamaica
+            </a>
+        </p>
+
+        <small>
+            Educational website project. Not an official government
+            or Black River Hospital website. Recovery needs and
+            activities must be confirmed by qualified authorities.
+        </small>
+
+        <p class="mt-3 mb-0">
+            &copy; 2026 Jamaica Health Recovery Project
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Update recovery checklist progress
+    const tasks = document.querySelectorAll(".task");
+    const progressBar = document.getElementById("progressBar");
+
+    function updateProgress() {
+        let completed = document.querySelectorAll(".task:checked").length;
+        let total = tasks.length;
+        let percentage = Math.round((completed / total) * 100);
+
+        progressBar.style.width = percentage + "%";
+        progressBar.textContent = percentage + "%";
+    }
+
+    tasks.forEach(function(task) {
+        task.addEventListener("change", updateProgress);
+    });
+
+    // Reset checklist
+    function resetChecklist() {
+        tasks.forEach(function(task) {
+            task.checked = false;
+        });
+
+        updateProgress();
+    }
+
+    // Demonstration contact form
+    document.getElementById("contactForm").addEventListener("submit",
+        function(event) {
+            event.preventDefault();
+
+            document.getElementById("formMessage").textContent =
+                "Thank you. Your demonstration message has been received.";
+
+            document.getElementById("formMessage").style.color = "green";
+
+            this.reset();
+        }
+    );
+</script>
+
+</body>
+</html>
